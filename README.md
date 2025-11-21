@@ -7,7 +7,7 @@
 
 ## Overview
 
-This Solana program implements a transparent, on-chain escrow system for Eve AI's message submission and prize distribution mechanism. The program operates as a trustless escrow that pools fees from participants and distributes prizes based on deterministic, on-chain rules.
+This Solana program implements a transparent, on-chain escrow system for JigSaw AI's message submission and prize distribution mechanism. The program operates as a trustless escrow that pools fees from participants and distributes prizes based on deterministic, on-chain rules.
 
 ## Program Intentions
 
