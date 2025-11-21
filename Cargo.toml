@@ -1,0 +1,29 @@
+[package]
+name = "treasury-escrow"
+version = "0.1.0"
+description = "Treasury Escrow Solana Program"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "treasury_escrow"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+idl-build = ["anchor-lang/idl-build", "anchor-spl/idl-build"]
+
+[dependencies]
+anchor-lang = "0.31.1"
+anchor-spl = "0.31.1"
+indexmap = "=2.2.6"
+solana-security-txt = "1.1.1"
+
+[workspace]
+members = [
+    "src/*"
+]
+resolver = "2"

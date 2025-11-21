@@ -1,0 +1,49 @@
+# Rust
+/target/
+**/*.rs.bk
+*.pdb
+!Cargo.lock
+
+# Anchor
+.anchor/
+test-ledger/
+.DS_Store
+
+# Keypairs (NEVER commit these!)
+*-keypair.json
+*.json
+!Anchor.toml
+!Cargo.toml
+!tsconfig.json
+!package.json
+!package-lock.json
+
+# IDL
+**/target/idl/
+**/target/types/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+
+# Build artifacts
+dist/
+build/
+
+target/deploy/treasury_escrow-keypair.json
+
